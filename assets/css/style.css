@@ -1,7 +1,14 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 nav {
     background-color: transparent !important;
 }
-.transparente {
-    background: url(/assets/img/carousel1.jpg);
-    background-size: cover;
+.carousel-control-prev {
+    background-color: transparent !important;
+}
+.carousel-control-next {
+    background-color: transparent !important;
 }

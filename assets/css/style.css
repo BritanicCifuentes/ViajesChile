@@ -1,0 +1,7 @@
+nav {
+    background-color: transparent !important;
+}
+.transparente {
+    background: url(/assets/img/carousel1.jpg);
+    background-size: cover;
+}

@@ -2,9 +2,14 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: #030314;
 }
 nav {
     background-color: transparent !important;
+    color: #ffffff;
+}
+.nav-link {
+    color: #ffffff;
 }
 .carousel-control-prev {
     background-color: transparent !important;

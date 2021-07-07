@@ -1,8 +1,8 @@
 body {
+    background-color: #030314;
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: #030314;
 }
 nav {
     background-color: transparent !important;
@@ -10,13 +10,4 @@ nav {
 }
 .nav-link {
     color: #ffffff;
-}
-.carousel-control-prev {
-    background-color: transparent !important;
-}
-.carousel-control-next {
-    background-color: transparent !important;
-}
-.borde {
-    background-color: #35d0ff;
 }

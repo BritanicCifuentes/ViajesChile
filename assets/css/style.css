@@ -1,9 +1,12 @@
+/* Aquí se encuentra el cuerpo de nuestra estructura */
 body {
     background-color: #030314 !important;
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+/* Aquí esta nuestra barra de navegación */
 nav {
     background-color: transparent !important;
     color: #ffffff;
@@ -11,12 +14,12 @@ nav {
 .nav-link {
     color: #ffffff;
 }
+/* Aquí podemos identificar los titulos de cada card */
 .somos {
     color: #ffffff;
+    font-weight: bold;
 }
-.linea {
-    color: #09cfdd !important;
-}
+/* Aquí le agregamos color y alineación a nuestras primeras cartas */
 .card-header {
     background-color: #09cfdd !important;
     text-align: center;
@@ -25,13 +28,15 @@ nav {
     background-color: #030314 !important;
     color: #ffffff;
 }
+.img-responsive {
+    filter: invert();
+}
+/* Aquí cambiamos el color de nuestra siguiente seccion de cartas con imagenes */
 .lo {
     background-color: #09cfdd !important;
     color: #ffffff;
 }
-.img-responsive {
-    filter: invert();
-}
+/* Aquí tenemos los cambios de color a nuestro pie de página */
 .img-responsve {
     filter: invert();
     display: inline-block;

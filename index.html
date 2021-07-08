@@ -18,6 +18,7 @@
         <script src="/assets/js/script.js"></script>
 </head>
 <body>
+        <!--Nuestra barra de navegación-->
         <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
                 <div class="container">
                         <a class="navbar-brand" href="#"><img class="img-responsiv" src="/assets/img/viajes.svg" alt="Logo del sitio web" width= "122px"; height= "43px";>Viajes Chile</a>
@@ -42,7 +43,9 @@
                         </div>
                 </div>
         </nav>
+        <!--Nuestro carrusel-->
         <div >
+                <!--Aqui hacemos uso de nuestro carrusel-->
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -65,56 +68,63 @@
                         </a>
                 </div>
         </div>
+        <!--Nuestra sección de ¿Quiénes somos?-->
         <div id="somos"></div>
-        <div class="container">
-                <div class="row justify-content-center pt-5">
-                        <h2 class="somos font-weight-bold">¿Quiénes Somos?</h2>
-                </div>
-        </div>
-        <div class="container">
-                <hr class="linea border-top">
-                <div class="row">
-                        <div class="col-md-4">
-                                <div class="card-header">
-                                        <img class="img-responsive" src="/assets/img/plane-solid.svg" alt="icono" width= "112px"; height= "33px";>
-                                </div>
-                                <div class="te card-body">
-                                        <blockquote class="blockquote mb-0">
-                                                <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
-                                        </blockquote>
-                                </div>
-                        </div>
-                        <div class="col-md-4">
-                                <div class="te card-body">
-                                        <blockquote class="blockquote mb-0">
-                                                <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
-                                        </blockquote>
-                                </div>
-                                <div class="card-header">
-                                        <img class="img-responsive" src="/assets/img/mountain-solid.svg" alt="icono" width= "112px"; height= "33px";>
-                                </div>
-                        </div>
-                        <div class="col-md-4">
-                                <div class="card-header">
-                                        <img class="img-responsive" src="/assets/img/route-solid.svg" alt="icono" width= "112px"; height= "33px";>
-                                </div>
-                                <div class="te card-body">
-                                        <blockquote class="blockquote mb-0">
-                                                <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
-                                        </blockquote>
-                                </div>
+        <section class="d-none d-sm-block">
+                <div class="container">
+                        <div class="row justify-content-center pt-5">
+                                <h2 class="somos">¿Quiénes Somos?</h2>
                         </div>
                 </div>
-        </div>
+                <div class="container">
+                        <hr class="linea border-top">
+                        <div class="row">
+                                <!--Aqui hacemos uso de nuestras grillas en las tarjetas, teniendo cada tarjeta su grilla correspondiente-->
+                                <div class="col-md-4">
+                                        <div class="card-header">-->
+                                                <img class="img-responsive" src="/assets/img/plane-solid.svg" data-toggle="tooltip" data-placement="bottom" title="Viaja con nosotros" alt="icono" width= "112px"; height= "33px";>
+                                        </div>
+                                        <div class="te card-body">
+                                                <blockquote class="blockquote mb-0">
+                                                        <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
+                                                </blockquote>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="te card-body">
+                                                <blockquote class="blockquote mb-0">
+                                                        <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
+                                                </blockquote>
+                                        </div>
+                                        <div class="card-header">
+                                                <img class="img-responsive" src="/assets/img/mountain-solid.svg" data-toggle="tooltip" data-placement="bottom" title="Tenemos los mejores lugares para vacacionar" alt="icono" width= "112px"; height= "33px";>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <div class="card-header">
+                                                <!--Aquí tenemos agregados unos tooltip en nuestros iconos de estas tarjetas, cada una con un mensaje diferente-->
+                                                <img class="img-responsive" src="/assets/img/route-solid.svg" data-toggle="tooltip" data-placement="bottom" title="Elige las mejores rutas con nosotros" alt="icono" width= "112px"; height= "33px";>
+                                        </div>
+                                        <div class="te card-body">
+                                                <blockquote class="blockquote mb-0">
+                                                        <p class="font-weight-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus maxime laborum velit atque libero, similique amet quasi earum repellendus praesentium illo reiciendis voluptatibus eaque modi, voluptatem sapiente enim maiores laboriosam.</p>
+                                                </blockquote>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!--Nuestra sección de destacados-->
         <div id="destacados"></div>
         <div class="container">
                 <div class="row justify-content-center pt-5">
-                        <h2 class="somos font-weight-bold">Destacados</h2>
+                        <h2 class="somos">Destacados</h2>
                 </div>
         </div>
         <div class="container">
                 <hr class="linea border-top">
                 <div class="row">
+                        <!--Aqui hacemos uso de nuestras grillas en las tarjetas, teniendo cada tarjeta su grilla correspondiente-->
                         <div class="col-md-3">
                                 <div class="card" style="width: 16rem;">
                                         <img src="/assets/img/card1.jpg" class="card-img-top" alt="card1">
@@ -153,29 +163,30 @@
                         </div>
                 </div>
         </div>
+        <!--JNuestra sección de contacto-->
         <div id="contacto"></div>
         <div class="container">
                 <div class="row justify-content-center pt-5">
-                        <h2 class="somos font-weight-bold">Contacto</h2>
+                        <h2 class="somos">Contacto</h2>
                 </div>
         </div>
         <div class="container">
                 <hr class="linea border-top">
                 <div class="row pb-5">
                         <div class="typeform-widget" data-url="https://form.typeform.com/to/ASJxslaz?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
-                        <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
         </div>
+        <!--Nuestro pie de página-->
         <footer class="footer">
-                <div class="d-flex aling-items-center">
-                        <div class="row mx-auto">
+                <div class="container d-flex aling-items-center">
+                        <div class="row mx-5">
                                 <h2 class="font-weight-regular mr-5 display-5">Viajes Chile</h2>
-                                <div class="img-responsve">
-                                        <a href="#"><img src="/assets/img/github-square-brands.svg" alt="github" height="53.33px" width="80px"></a>
-                                        <a href="#"><img src="/assets/img/linkedin-brands.svg" alt="linkedin" height="53.33px" width="80px"></a>
-                                        <a href="#"><img src="/assets/img/twitter-square-brands.svg" alt="twitter" height="53.33px" width="80px"></a>
-                                        <a href="#"><img src="/assets/img/facebook-square-brands.svg" alt="facebook" height="53.33px" width="80px"></a>
-                                </div>
+                        </div>
+                        <div class="img-responsve mx-auto">
+                                <a href="#"><img src="/assets/img/github-square-brands.svg" alt="github" height="50px" width="80px"></a>
+                                <a href="#"><img src="/assets/img/linkedin-brands.svg" alt="linkedin" height="50px" width="80px"></a>
+                                <a href="#"><img src="/assets/img/twitter-square-brands.svg" alt="twitter" height="50px" width="70px"></a>
+                                <a href="#"><img src="/assets/img/facebook-square-brands.svg" alt="facebook" height="50px" width="70px"></a>
                         </div>
                 </div>
         </footer>

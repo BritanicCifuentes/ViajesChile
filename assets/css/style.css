@@ -32,3 +32,11 @@ nav {
 .img-responsive {
     filter: invert();
 }
+.img-responsve {
+    filter: invert();
+    display: inline-block;
+}
+.footer {
+    background-color: #09cfdd !important;
+    color: #ffffff;
+}

@@ -1,6 +1,6 @@
 /* Aquí se encuentra el cuerpo de nuestra estructura */
 body {
-    background-color: #030314 !important;
+    background-color: #010108 !important;
     margin: 0;
     border: 0;
     padding: 0;
@@ -25,7 +25,7 @@ nav {
     text-align: center;
 }
 .te {
-    background-color: #030314 !important;
+    background-color: #010108 !important;
     color: #ffffff;
 }
 .img-responsive {

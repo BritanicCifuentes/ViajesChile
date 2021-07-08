@@ -15,11 +15,11 @@ nav {
     color: #ffffff;
 }
 .linea {
-    background-color: #09cfdd !important;
     color: #09cfdd !important;
 }
 .card-header {
     background-color: #09cfdd !important;
+    text-align: center;
 }
 .te {
     background-color: #030314 !important;
@@ -28,4 +28,7 @@ nav {
 .lo {
     background-color: #09cfdd !important;
     color: #ffffff;
+}
+.img-responsive {
+    filter: invert();
 }
